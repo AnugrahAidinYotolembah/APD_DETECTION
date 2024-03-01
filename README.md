@@ -16,8 +16,7 @@ A. Langkah - Langkah menjalankan kode program Sistem Penganalan Alat Pelingdung
 
    Anugrah_Aidin_Yotolembah_APD DETECTION.ipynb
 
-3. Pastikan telah melakukan download atau clone repository di atas dan pastikan
-   telah membuka file berformat .ipynb di atas dan  instal semua library dependensi yang diperlukan seperti dibawah ini : 
+3. Pastikan telah melakukan download atau clone repository di atas, telah membuka file berformat .ipynb di atas, mengubah runtime ke gpu,  dan  instal semua library dependensi yang diperlukan seperti dibawah ini : 
 
    ```python
    !pip install super-gradients==3.1.0
@@ -27,7 +26,7 @@ A. Langkah - Langkah menjalankan kode program Sistem Penganalan Alat Pelingdung
    !pip install super-gradients
    ```
 
-5. Import semua modul yang diperlukan :
+4. Import semua modul yang diperlukan :
    ```python
    from super_gradients.training import Trainer
    from super_gradients.training import dataloaders
@@ -41,13 +40,13 @@ A. Langkah - Langkah menjalankan kode program Sistem Penganalan Alat Pelingdung
    import os
    ```
 
-6. Membuat check point dalam directiory untuk data train :
+5. Membuat check point dalam directiory untuk data train :
    ```python
    CHECKPOINT_DIR = 'checkpoints2'
    trainer = Trainer(experiment_name='ppe_yolonas_run2', ckpt_root_dir=CHECKPOINT_DIR)
    '''
 
-7. Unduh dataset dari website Roboflow dengan menjalankan kode program berikut :
+6. Unduh dataset dari website Roboflow dengan menjalankan kode program berikut :
    ```python
    !pip install roboflow
    from roboflow import Roboflow
@@ -56,7 +55,7 @@ A. Langkah - Langkah menjalankan kode program Sistem Penganalan Alat Pelingdung
    dataset = project.version(1).download("yolov5")
    ```
 
-8. Siapkan data training, validation, testing :
+7. Siapkan data training, validation, testing :
    ```python
    dataset_params = {
    'data_dir':'/content/EEP_Detection-1',
@@ -68,7 +67,8 @@ A. Langkah - Langkah menjalankan kode program Sistem Penganalan Alat Pelingdung
    'test_labels_dir':'test/labels',
    'classes': ['Protective Helmet', 'Shield', 'Jacket', 'Dust Mask', 'Eye Wear', 'Glove', 'Protective Boots']
    }
+   ```
+8. 
 9. 
-10. 
 
 

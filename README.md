@@ -14,7 +14,7 @@ A. Langkah - Langkah menjalankan kode program Sistem Penganalan Alat Pelingdung
 
 2. Setelah download atau clone repository, masuk ke dalam folder code, dan buka kode program yang telah di buat yang bernama :
 
-Anugrah_Aidin_Yotolembah_APD DETECTION.ipynb
+   Anugrah_Aidin_Yotolembah_APD DETECTION.ipynb
 
 4. Pastikan telah melakukan download atau clone repository di atas dan pastikan
    telah menginstal semua library dependensi yang diperlukan seperti dibawah ini : 

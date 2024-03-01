@@ -257,7 +257,7 @@ A. Langkah - Langkah menjalankan kode program Sistem Penganalan Alat Pelingdung
 
 20. semua kode program di atas bisa di dapatkan di folder code dalam repository ini atau bisa lewat link google colab di bawah ini : 
 
-[Open in Colab](https://colab.research.google.com/drive/1BqS0frAQ793V9Vshe3TA-1CZpooPhu5s?usp=sharing)
+[Anugrah Aidin Yotolembah-APD DETECTION](https://colab.research.google.com/drive/1BqS0frAQ793V9Vshe3TA-1CZpooPhu5s?usp=sharing)
 
 
 B. OUTPUT APD DETECTION
@@ -268,10 +268,12 @@ B. OUTPUT APD DETECTION
    
 2. output with videos
    
-https://github.com/AnugrahAidinYotolembah/APD_DETECTION/assets/108518030/fbb9442b-1e99-4be6-962e-4b6b9963ae95
+https://github.com/AnugrahAidinYotolembah/APD_DETECTION/assets/108518030/5e6e5e91-9af0-49b8-813d-b7b463a38afc
+
+
 
 
    
-4. 
+
 
 

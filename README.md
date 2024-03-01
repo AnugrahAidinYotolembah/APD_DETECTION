@@ -262,11 +262,12 @@ A. Langkah - Langkah menjalankan kode program Sistem Penganalan Alat Pelingdung
 
 B. OUTPUT APD DETECTION
 1. output with image
+   
    <img width="631" alt="Screenshot 2024-03-02 at 01 41 52" src="https://github.com/AnugrahAidinYotolembah/APD_DETECTION/assets/108518030/71a3ee49-72b5-40ca-a5fd-91abac3e15d6">
    <img width="408" alt="Screenshot 2024-03-02 at 01 42 15" src="https://github.com/AnugrahAidinYotolembah/APD_DETECTION/assets/108518030/e2e64a40-d9af-475d-8aea-498eb9e8009d">
 
    
-2. output with videos
+3. output with videos
    
 https://github.com/AnugrahAidinYotolembah/APD_DETECTION/assets/108518030/5e6e5e91-9af0-49b8-813d-b7b463a38afc
 
@@ -308,7 +309,10 @@ C. CONCLUSION
 
 8. output saat di tampilkan pada mode video, awalnya saya mencoba contoh video yang di berikan, tetapi hasil untuk mendeteksi object APD kurang akurat di karnakan menurut saya faktor video yang di berikan jauh dari pandangan untuk melakukan detection object.
 
-untuk itu saya menggunakan video saya sendiri dan ketika kode program / models yang telah di latih menggunakan yolo, object yang didalam video berhasil terdeteksi sesuai class detection yang telah di tentukan, hampir semuanya mendekati akurat dan sesuai untuk melakukan deteksi object APD, tetapi ada sedikit keliru ketika mendeteksi papan iklan dalam video yang berwarna orange, papan iklan tersebut di deteksi sebagai jacket pekerja bangunan.
+   untuk itu saya menggunakan video saya sendiri dan ketika kode program / models yang telah di latih menggunakan yolo, object yang didalam 
+   video berhasil terdeteksi sesuai class detection yang telah di tentukan, hampir semuanya mendekati akurat dan sesuai untuk melakukan 
+   deteksi object APD, tetapi ada sedikit keliru ketika mendeteksi papan iklan dalam video yang berwarna orange, papan iklan tersebut di 
+   deteksi sebagai jacket pekerja bangunan.
 
 
 

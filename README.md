@@ -68,7 +68,50 @@ A. Langkah - Langkah menjalankan kode program Sistem Penganalan Alat Pelingdung
    'classes': ['Protective Helmet', 'Shield', 'Jacket', 'Dust Mask', 'Eye Wear', 'Glove', 'Protective Boots']
    }
    ```
-8. 
-9. 
+8. Menginisialisasikan menginisialisasikan class, labels directory, images directory dalam train data, validation data, testing data dalam dataset
+
+   ```python
+   rain_data = coco_detection_yolo_format_train(
+    dataset_params={
+        'data_dir': dataset_params['data_dir'],
+        'images_dir': dataset_params['train_images_dir'],
+        'labels_dir': dataset_params['train_labels_dir'],
+        'classes': dataset_params['classes']
+    },
+    dataloader_params={
+        'batch_size':16,
+        'num_workers':2
+    }
+   )
+
+   val_data = coco_detection_yolo_format_val(
+    dataset_params={
+        'data_dir': dataset_params['data_dir'],
+        'images_dir': dataset_params['val_images_dir'],
+        'labels_dir': dataset_params['val_labels_dir'],
+        'classes': dataset_params['classes']
+    },
+    dataloader_params={
+        'batch_size':16,
+        'num_workers':2
+    }
+   )
+
+   test_data = coco_detection_yolo_format_val(
+    dataset_params={
+        'data_dir': dataset_params['data_dir'],
+        'images_dir': dataset_params['test_images_dir'],
+        'labels_dir': dataset_params['test_labels_dir'],
+        'classes': dataset_params['classes']
+    },
+    dataloader_params={
+        'batch_size':16,
+        'num_workers':2
+    }
+   )
+
+   clear_output()
+   
+10. 
 
 

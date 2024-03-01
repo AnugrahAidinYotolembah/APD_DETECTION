@@ -35,6 +35,36 @@ A. Langkah - Langkah menjalankan kode program Sistem Penganalan Alat Pelingdung
    from super_gradients.training import models
    from roboflow import Roboflow
    import os
-
    ```
+
+4. Membuat check point dalam directiory untuk data train :
+   ```python
+   CHECKPOINT_DIR = 'checkpoints2'
+   trainer = Trainer(experiment_name='ppe_yolonas_run2', ckpt_root_dir=CHECKPOINT_DIR)
+   '''
+
+5. Unduh dataset dari website Roboflow dengan menjalankan kode program berikut :
+   ```python
+   !pip install roboflow
+   from roboflow import Roboflow
+   rf = Roboflow(api_key="6jnEorjCrjLrIuI3IGb4")
+   project = rf.workspace("objet-detect-yolov5").project("eep_detection-u9bbd")
+   dataset = project.version(1).download("yolov5")
+   ```
+
+6. Siapkan data training, validation, testing :
+   ```python
+   dataset_params = {
+   'data_dir':'/content/EEP_Detection-1',
+   'train_images_dir':'train/images',
+   'train_labels_dir':'train/labels',
+   'val_images_dir':'valid/images',
+   'val_labels_dir':'valid/labels',
+   'test_images_dir':'test/images',
+   'test_labels_dir':'test/labels',
+   'classes': ['Protective Helmet', 'Shield', 'Jacket', 'Dust Mask', 'Eye Wear', 'Glove', 'Protective Boots']
+   }
+8. 
+9. 
+
 

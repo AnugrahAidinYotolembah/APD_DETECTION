@@ -16,8 +16,8 @@ A. Langkah - Langkah menjalankan kode program Sistem Penganalan Alat Pelingdung
 
    Anugrah_Aidin_Yotolembah_APD DETECTION.ipynb
 
-4. Pastikan telah melakukan download atau clone repository di atas dan pastikan
-   telah menginstal semua library dependensi yang diperlukan seperti dibawah ini : 
+3. Pastikan telah melakukan download atau clone repository di atas dan pastikan
+   telah membuka file berformat .ipynb di atas dan  instal semua library dependensi yang diperlukan seperti dibawah ini : 
 
    ```python
    !pip install super-gradients==3.1.0

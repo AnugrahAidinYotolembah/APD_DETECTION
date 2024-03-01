@@ -272,6 +272,50 @@ https://github.com/AnugrahAidinYotolembah/APD_DETECTION/assets/108518030/5e6e5e9
 
 
 
+https://github.com/AnugrahAidinYotolembah/APD_DETECTION/assets/108518030/02d6e120-7ffb-4bb0-89c2-8e348df6d2be
+
+
+C. CONCLUSION
+
+1. saya menggunakan library python package yaitu :
+   - super gradients
+   - roboflow
+   - pytorch
+   - imutils
+
+2. Runtime yang saya gunakan yaitu GPU bawaan dari google colab
+
+3. di sini saya menggunakan image dataset dari api key roboflow dengan kata kunci 
+   PPE (Personal Protective Equipmnet) di karnakan dataset ini cocok di terapkan 
+   untuk mendeteksi APD (Alat Perlindungan Diri). dataset ini juga menampilkan 
+   object dengan baik,  dari gambar yang dekat, pencahayaan yang jelas, bentuk 
+   object yang jelas, dll.
+
+4. saya membuat 7 class yang akan melakukan deteksi dan sesuai yang di minta yaitu:
+   - Protective Helmet
+   - Shield
+   - Protective Jacket
+   - Dust Mask
+   - Eye Wear
+   - Glove
+   - Protective Boots
+
+5. saya menggunakan Algoritma AI  yolov5/ yoloNas dengan bobot/ weight yaitu coco bawaan dari yolo, alasan memakai ini di karnakan yolov5 merupakan algoritma yang pendeteksiannya lebih akurat dan lebih baik dari model atau algoritma yang lainnya, dan algoritma AI yolov5 ini sedang tren untuk teknologi Object detections
+
+6. pada saat training image saya menggunakan 10 epoch dan threshold sebanyak 0.7 di karnakan value dari epoch dan threshold untuk detection objeck sudah menghasilkan gambar detection yang baik.
+
+7. output saat di tampilkan pada mode gambar, kode program berhasil medeteksi object PPE / APD dengan baik dan sesuai class yang telah di tentukan, contohnya ketika muncul gambar sarung tangan/ glove, kode program atau models yolo bisa mendeteksi bahwa itu sarung tangan, begitu pun dengan class yang lain.
+
+8. output saat di tampilkan pada mode video, awalnya saya mencoba contoh video yang di berikan, tetapi hasil untuk mendeteksi object APD kurang akurat di karnakan menurut saya faktor video yang di berikan jauh dari pandangan untuk melakukan detection object.
+
+untuk itu saya menggunakan video saya sendiri dan ketika kode program / models yang telah di latih menggunakan yolo, object yang didalam video berhasil terdeteksi sesuai class detection yang telah di tentukan, hampir semuanya mendekati akurat dan sesuai untuk melakukan deteksi object APD, tetapi ada sedikit keliru ketika mendeteksi papan iklan dalam video yang berwarna orange, papan iklan tersebut di deteksi sebagai jacket pekerja bangunan.
+
+
+
+
+
+
+
 
    
 

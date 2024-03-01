@@ -255,14 +255,23 @@ A. Langkah - Langkah menjalankan kode program Sistem Penganalan Alat Pelingdung
     """ % data_url)
     ```
 
-B. OUTPUT
+20. semua kode program di atas bisa di dapatkan di folder code dalam repository ini atau bisa lewat link google colab di bawah ini : 
+
+[Open in Colab](https://colab.research.google.com/drive/1BqS0frAQ793V9Vshe3TA-1CZpooPhu5s?usp=sharing)
+
+
+B. OUTPUT APD DETECTION
 1. output with image
    <img width="631" alt="Screenshot 2024-03-02 at 01 41 52" src="https://github.com/AnugrahAidinYotolembah/APD_DETECTION/assets/108518030/71a3ee49-72b5-40ca-a5fd-91abac3e15d6">
    <img width="408" alt="Screenshot 2024-03-02 at 01 42 15" src="https://github.com/AnugrahAidinYotolembah/APD_DETECTION/assets/108518030/e2e64a40-d9af-475d-8aea-498eb9e8009d">
 
+   
+2. output with videos
+   
+https://github.com/AnugrahAidinYotolembah/APD_DETECTION/assets/108518030/fbb9442b-1e99-4be6-962e-4b6b9963ae95
+
 
    
-3. 
 4. 
 
 

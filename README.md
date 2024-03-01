@@ -6,7 +6,8 @@ Sistem Pengenalan Alat Pelindung Diri
 Dalam industri konstruksi, manufaktur, dan laboratorium, penggunaan Alat Pelindung Diri (APD) sangat penting untuk menjaga keselamatan kerja. Sebuah sistem yang dapat mengenali penggunaan APD secara otomatis dapat membantu memastikan bahwa semua pekerja mematuhi standar keselamatan. 
 Pada challenge kali ini anda diminta untuk menegembangkan sistem AI yang dapat mengenali berbagai jenis APD pada pekerja dalam lingkungan kerj. Sistem harus mampu mengidentifikasi kehadiran atau ketiadaan item APD spesifik seperti helm, masker, sarung tangan, kacamata pelindung, dan sepatu keselamatan.
 
-A. Langkah - Langkah menjalankan kode program Sistem Penganalan Alat Pelingdung Diri (APD DETECTION) : 
+A. Langkah - Langkah menjalankan kode program Sistem Penganalan Alat Pelingdung 
+   Diri (APD DETECTION) : 
 
 1. download atau clone repository :
    https://github.com/AnugrahAidinYotolembah/APD_DETECTION.git
